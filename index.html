@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Penguin Website</title>
+    <!-- tailwindcss er play cdn theke sudhu script copy kore ekhane boshiye dilei connect hoye jabe -->
+     <!-- css framework er main "tailwind"  jante hobe-->
+      <!-- daisy ui -->
+       <!-- "upper case " means lekhagulo boro hater hobe -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--"" font awesome"  er " my kits" er script boshabo "icons" show koranor jnno-->
+    <!--"" icon" font hishebe kaj kore -->
+    <!-- "Y-axes" dile top-bottom pay
+          "X-axes" dile left-right pay-->
+    <script src="https://kit.fontawesome.com/bbc75b223b.js" crossorigin="anonymous"></script>
+    <style>
+      .bg-penguin{
+        background-color: rgb(255 251 240);
+      }
+
+      li{
+        list-style: none;
+      
+      }
+
+      li >a{
+        margin-right: 30px;
+      }
+    </style>
+</head>
+<body class="bg-[#e5e7eb]">
+  <header class="bg-penguin">
+    <nav class="flex justify-end text-center text-2xl text-white  bg-sky-500 ">
+      <div class="container flex items-center justify-center">
+        <div>
+          <img src="images/logo.png" height="120px" alt="" >
+        </div>
+        <div class="flex p-8">
+          <li><a href="#">Home</a></li>
+        <li><a href="#"> About</a></li>
+        <li><a href="#">Jackets</a></li>
+        </div>
+      </div>
+    </nav>
+         <!-- Hero section start -->
+                   <!-- "class="container" dile "width" automatic 100% niya ney and automatic responsive hoye jay -->
+                    
+          <section class=" container flex items-center justify-around ">
+            <div class="space-y-4">
+                 
+                 <h1 class="text-6xl uppercase font-bold "> <span class="text-yellow-400">Be The Penguin</span>
+                  <br>
+                 OF WINTER</h1>
+                 <P>I wanna be a cute penguin in this winter</P>
+                 <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+                  <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+            </div>
+            <div>
+              <img class="w-full" src="images/model.png" alt="">
+            </div>
+          </section>
+   </header>
+          <!-- hero section end -->
+
+  <main>
+    <!-- woman jacket start -->
+     <!-- "mx"-margin, X axes borabor. "pb"-padding-bottom, "pt"-padding-top -->
+      <!-- tailwind a padding margin 4 kore vag kore nay.ex:4/8/12/16.. -->
+     <section class="container mx-auto pb-24 pt-16">
+       <h2 class="uppercase text-5xl font-bold p-4">woman jacket</h2>
+      <div class="grid grid-cols-3 gap-7">
+        <div class="shadow-lg p-4 ">
+          <div class="bg-slate-100 p-5 rounded">
+            <img src="images/jacket-1.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+          <p>This jacket is too much expensive and also suitable for winter season</p>
+          <div class="flex justify-between">
+           <h2 class="text-5xl font-bold text-yellow-500">$238</h2>
+           <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+             <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+          </div>
+        </div>
+          <div class="shadow-lg p-4 ">
+            <div class="bg-slate-100 p-5 rounded">
+              <img src="images/jacket-2.png" alt="">
+            </div>
+            <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+            <p>This jacket is too much expensive and also suitable for winter season</p>
+            <div class="flex justify-between">
+             <h2 class="text-5xl font-bold text-yellow-500">$238</h2>
+             <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+               <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+            </div>
+          </div>
+            <div class="shadow-lg p-4 ">
+              <div class="bg-slate-100 p-5 rounded">
+                <img src="images/jacket-3.png" alt="">
+              </div>
+              <h3 class="text-3xl font-semibold">Red Coat Jacket</h3>
+              <p>This jacket is too much expensive and also suitable for winter season</p>
+              <div class="flex justify-between">
+               <h2 class="text-5xl font-bold text-yellow-500">$238</h2>
+               <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+                 <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              </div>
+            </div>
+      </div>
+     </section>
+     <!-- woman jacket end -->
+
+     <!-- Mens jacket start -->
+      <section class="container mx-auto pb-24 pt-12 ">
+        <h2 class="uppercase text-5xl font-bold p-4">Mens Jacket</h2>
+        
+        <div class="grid grid-cols-3 gap-7">
+          <div class="shadow-lg p-4 ">
+            <div class="bg-slate-100 p-5 rounded">
+              <img src="images/jacket-4.png" alt="">
+            </div>
+            <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+            <p>This jacket is too much expensive and also suitable for winter season</p>
+            <div class="flex justify-between">
+             <h2 class="text-5xl font-bold text-yellow-500">$234</h2>
+             <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+               <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+            </div>
+          </div>
+            <div class="shadow-lg p-4 ">
+              <div class="bg-slate-100 p-5 rounded">
+                <img src="images/jacket-5.png" alt="">
+              </div>
+              <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+              <p>This jacket is too much expensive and also suitable for winter season</p>
+              <div class="flex justify-between">
+               <h2 class="text-5xl font-bold text-yellow-500">$234</h2>
+               <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+                 <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+              </div>
+            </div>
+              <div class="shadow-lg p-4 ">
+                <div class="bg-slate-100 p-5 rounded">
+                  <img src="images/jacket-6.png" alt="">
+                </div>
+                <h3 class="text-3xl font-semibold">Snowboard Jacket Mens</h3>
+                <p>This jacket is too much expensive and also suitable for winter season</p>
+                <div class="flex justify-between">
+                 <h2 class="text-5xl font-bold text-yellow-500">$234</h2>
+                 <button class="rounded-xl bg-lime-500 py-4 px-7 text-white">
+                   <i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- Mens jacket end -->
+       <section class="container mx -auto pb-24">
+          <div class="grid grid-cols-2 gap-7">
+            <div class="flex bg-white rounded p-6">
+              <div>
+                <img  class="h-20 w-20" src="images/house.png" alt="">
+               </div>
+               <div>
+                <h4 class="text-2xl">Find The Perfect Fit</h4>
+                <p>Everybody is different, which is why we offer styles foe every body</p>
+               </div>
+             </div>
+             
+              <div class="row-span-3">
+                <img src="images/shopping.png " alt="">
+              </div>
+              <div class="flex bg-white rounded p-6">
+                <div>
+                  <img  class="h-20 w-20" src="images/box.png" alt="">
+                 </div>
+                 <div>
+                  <h4 class="text-2xl">Free Exchanges</h4>
+                  <p>Everybody is different, which is why we offer styles foe every body</p>
+                 </div>
+               </div>
+               <div>
+                <div class="flex bg-white rounded p-6">
+                  <div>
+                    <img  class="h-20 w-20" src="images/question.png" alt="">
+                   </div>
+                   <div>
+                    <h4 class="text-2xl">Find The Perfect Fit</h4>
+                    <p>Everybody is different, which is why we offer styles for every body</p>
+                   </div>
+                 </div>
+                 
+           
+       </section>
+  </main>
+  <footer class="text-center font-semibold pb-5">
+    Copyright 2024 &copy; Rina
+  </footer>
+</body>
+</html>
